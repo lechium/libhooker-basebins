@@ -58,7 +58,7 @@ return kr;
 #endif
 
 #ifdef ROOTLESS
-#define PREFIX "/var/jb"
+#define PREFIX "/fs/jb"
 #else
 #define PREFIX ""
 #endif

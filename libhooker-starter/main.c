@@ -7,7 +7,7 @@
 extern char **environ;
 
 #ifdef ROOTLESS
-#define PREFIX "/var/jb"
+#define PREFIX "/fs/jb"
 #else
 #define PREFIX ""
 #endif
